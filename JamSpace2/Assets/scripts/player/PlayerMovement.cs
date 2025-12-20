@@ -24,8 +24,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        ReadInput();
-        UpdateState();
+        if (CurrentState != PlayerState.Attack)
+        {
+            ReadInput();
+            UpdateState();
+        }
     }
 
     void FixedUpdate()

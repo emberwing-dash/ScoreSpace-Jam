@@ -50,5 +50,12 @@ public class PlayerAnimation : MonoBehaviour
     public void EndAttack()
     {
         movement.EndAttack();
+
+        // FORCE animator back to Idle
+        animator.SetBool("isAttacking", false);
+        animator.SetBool("isDribbling", false);
+
+        animator.Play("Idle", 0, 0f);
     }
+
 }
