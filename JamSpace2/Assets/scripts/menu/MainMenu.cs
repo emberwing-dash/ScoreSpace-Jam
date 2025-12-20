@@ -19,6 +19,7 @@ public class MainMenu : MonoBehaviour
         leaderboard.gameObject.SetActive(false);
 
         name_1.gameObject.SetActive(false);
+        name_2.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -32,7 +33,9 @@ public class MainMenu : MonoBehaviour
         canva_1.gameObject.SetActive(false);
         canva_2.gameObject.SetActive(true);
         leaderboard.gameObject.SetActive(false);
+
         name_1.gameObject.SetActive(false);
+        name_2.gameObject.SetActive(false);
     }
 
     public void QuitButton()
@@ -44,16 +47,28 @@ public class MainMenu : MonoBehaviour
     {
         canva_1.gameObject.SetActive(true);
         canva_2.gameObject.SetActive(false);
+        leaderboard.gameObject.SetActive(false);
+
+        name_1.gameObject.SetActive(false);
+        name_2.gameObject.SetActive(false);
     }
 
     public void OnePlayer()
     {
+        canva_1.gameObject.SetActive(false);
+        canva_2.gameObject.SetActive(false);
+        leaderboard.gameObject.SetActive(false);
+
         name_1.gameObject.SetActive(true);
         name_2.gameObject.SetActive(false);
     }
 
     public void TwoPlayer()
     {
+        canva_1.gameObject.SetActive(false);
+        canva_2.gameObject.SetActive(false);
+        leaderboard.gameObject.SetActive(false);
+
         name_1.gameObject.SetActive(false);
         name_2.gameObject.SetActive(true);
     }
