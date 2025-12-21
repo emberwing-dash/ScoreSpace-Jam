@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 12875cd2c974ade41a0d79474a1485fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1012489236906476204
+    second: scorbunny_idle_0
+  - first:
+      213: -3206805059087626877
+    second: scorbunny_idle_1
+  - first:
+      213: 7606275176156791040
+    second: scorbunny_idle_2
+  - first:
+      213: -6617545253938377828
+    second: scorbunny_idle_3
+  - first:
+      213: 3491477466186696213
+    second: scorbunny_idle_4
+  - first:
+      213: 8077269206288025091
+    second: scorbunny_idle_5
+  - first:
+      213: 6663563310772949624
+    second: scorbunny_idle_6
+  - first:
+      213: 3437216741760916084
+    second: scorbunny_idle_7
+  - first:
+      213: 5860848946090121688
+    second: scorbunny_idle_8
+  - first:
+      213: 2791668190321292632
+    second: scorbunny_idle_9
+  - first:
+      213: -6050777485193009652
+    second: scorbunny_idle_10
+  - first:
+      213: -234616789262412272
+    second: scorbunny_idle_11
+  - first:
+      213: -8733681859101302666
+    second: scorbunny_idle_12
+  - first:
+      213: -8941769694043207302
+    second: scorbunny_idle_13
+  - first:
+      213: -8593775694295232792
+    second: scorbunny_idle_14
+  - first:
+      213: 6737809232116726175
+    second: scorbunny_idle_15
+  - first:
+      213: 5134565926795551439
+    second: scorbunny_idle_16
+  - first:
+      213: 1737575940019600315
+    second: scorbunny_idle_17
+  - first:
+      213: -5035668519611856823
+    second: scorbunny_idle_18
+  - first:
+      213: 7689192509286717850
+    second: scorbunny_idle_19
+  - first:
+      213: 6927778039517777431
+    second: scorbunny_idle_20
+  - first:
+      213: -7682857943657176260
+    second: scorbunny_idle_21
+  - first:
+      213: 2915400550421610076
+    second: scorbunny_idle_22
+  - first:
+      213: 4516875329212763089
+    second: scorbunny_idle_23
+  - first:
+      213: 6321879881526339355
+    second: scorbunny_idle_24
+  - first:
+      213: -7919542682189446112
+    second: scorbunny_idle_25
+  - first:
+      213: -4966045864331558240
+    second: scorbunny_idle_26
+  - first:
+      213: -4238084538242003122
+    second: scorbunny_idle_27
+  - first:
+      213: 7399426193098802499
+    second: scorbunny_idle_28
+  - first:
+      213: 2883067091535429615
+    second: scorbunny_idle_29
+  - first:
+      213: 8900061034532296579
+    second: scorbunny_idle_30
+  - first:
+      213: 5271220315929453860
+    second: scorbunny_idle_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scorbunny_idle_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca287b8b8951d0e00800000000000000
+      internalID: 1012489236906476204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d08250ac32f73d0800000000000000
+      internalID: -3206805059087626877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_2
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00182b219faee8960800000000000000
+      internalID: 7606275176156791040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_3
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b4eed17a1c924a0800000000000000
+      internalID: -6617545253938377828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_4
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516c651c148347030800000000000000
+      internalID: 3491477466186696213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306cff34c89381070800000000000000
+      internalID: 8077269206288025091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_6
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87292fca68bb97c50800000000000000
+      internalID: 6663563310772949624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_7
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a5fac5a6273bf20800000000000000
+      internalID: 3437216741760916084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_8
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d99ce9701be55150800000000000000
+      internalID: 5860848946090121688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_9
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855bbde9d6ffdb620800000000000000
+      internalID: 2791668190321292632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_10
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06a3248fe1570ca0800000000000000
+      internalID: -6050777485193009652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_11
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016dba1f5497ebcf0800000000000000
+      internalID: -234616789262412272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_12
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6706ef64f9abbc680800000000000000
+      internalID: -8733681859101302666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_13
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79833bb6d378e380800000000000000
+      internalID: -8941769694043207302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_14
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee852ea986ccb880800000000000000
+      internalID: -8593775694295232792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_15
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f993aa45cc1818d50800000000000000
+      internalID: 6737809232116726175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_16
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 1
+        width: 197
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2297e9184a14740800000000000000
+      internalID: 5134565926795551439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_17
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb32238c1c1d1810800000000000000
+      internalID: 1737575940019600315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_18
+      rect:
+        serializedVersion: 2
+        x: 4239
+        y: 1
+        width: 197
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9480be95926bd1ab0800000000000000
+      internalID: -5035668519611856823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_19
+      rect:
+        serializedVersion: 2
+        x: 4473
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9911ad19df75ba60800000000000000
+      internalID: 7689192509286717850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_20
+      rect:
+        serializedVersion: 2
+        x: 4707
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e85380c69642060800000000000000
+      internalID: 6927778039517777431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_21
+      rect:
+        serializedVersion: 2
+        x: 4941
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33a680e761016590800000000000000
+      internalID: -7682857943657176260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_22
+      rect:
+        serializedVersion: 2
+        x: 5175
+        y: 1
+        width: 197
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ebbd9aa55957820800000000000000
+      internalID: 2915400550421610076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_23
+      rect:
+        serializedVersion: 2
+        x: 5409
+        y: 1
+        width: 197
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbc3743e2a2fae30800000000000000
+      internalID: 4516875329212763089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_24
+      rect:
+        serializedVersion: 2
+        x: 5643
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17e01be144dbb750800000000000000
+      internalID: 6321879881526339355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_25
+      rect:
+        serializedVersion: 2
+        x: 5877
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024cd8cd3e1281290800000000000000
+      internalID: -7919542682189446112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_26
+      rect:
+        serializedVersion: 2
+        x: 6111
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2483ef89f051bb0800000000000000
+      internalID: -4966045864331558240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_27
+      rect:
+        serializedVersion: 2
+        x: 6345
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f820a119c4f25c0800000000000000
+      internalID: -4238084538242003122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_28
+      rect:
+        serializedVersion: 2
+        x: 6579
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34500653bea00b660800000000000000
+      internalID: 7399426193098802499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_29
+      rect:
+        serializedVersion: 2
+        x: 6813
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef769e9e36b20820800000000000000
+      internalID: 2883067091535429615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_30
+      rect:
+        serializedVersion: 2
+        x: 7047
+        y: 1
+        width: 200
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387d79a3b5e538b70800000000000000
+      internalID: 8900061034532296579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scorbunny_idle_31
+      rect:
+        serializedVersion: 2
+        x: 7281
+        y: 1
+        width: 200
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4252ccff2f2272940800000000000000
+      internalID: 5271220315929453860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      scorbunny_idle_0: 1012489236906476204
+      scorbunny_idle_1: -3206805059087626877
+      scorbunny_idle_10: -6050777485193009652
+      scorbunny_idle_11: -234616789262412272
+      scorbunny_idle_12: -8733681859101302666
+      scorbunny_idle_13: -8941769694043207302
+      scorbunny_idle_14: -8593775694295232792
+      scorbunny_idle_15: 6737809232116726175
+      scorbunny_idle_16: 5134565926795551439
+      scorbunny_idle_17: 1737575940019600315
+      scorbunny_idle_18: -5035668519611856823
+      scorbunny_idle_19: 7689192509286717850
+      scorbunny_idle_2: 7606275176156791040
+      scorbunny_idle_20: 6927778039517777431
+      scorbunny_idle_21: -7682857943657176260
+      scorbunny_idle_22: 2915400550421610076
+      scorbunny_idle_23: 4516875329212763089
+      scorbunny_idle_24: 6321879881526339355
+      scorbunny_idle_25: -7919542682189446112
+      scorbunny_idle_26: -4966045864331558240
+      scorbunny_idle_27: -4238084538242003122
+      scorbunny_idle_28: 7399426193098802499
+      scorbunny_idle_29: 2883067091535429615
+      scorbunny_idle_3: -6617545253938377828
+      scorbunny_idle_30: 8900061034532296579
+      scorbunny_idle_31: 5271220315929453860
+      scorbunny_idle_4: 3491477466186696213
+      scorbunny_idle_5: 8077269206288025091
+      scorbunny_idle_6: 6663563310772949624
+      scorbunny_idle_7: 3437216741760916084
+      scorbunny_idle_8: 5860848946090121688
+      scorbunny_idle_9: 2791668190321292632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

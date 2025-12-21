@@ -1,16 +1,10 @@
 using UnityEngine;
 
-public enum PlayerState
+public class Player1Movement : MonoBehaviour
 {
-    Idle,
-    Dribble,
-    Attack
-}
-
-
-public class PlayerMovement : MonoBehaviour
-{
+    [Header("Movement Settings")]
     public float speed = 5f;
+    public float sprintMultiplier = 1.5f;
 
     public PlayerState CurrentState { get; private set; } = PlayerState.Idle;
     public Vector2 MovementInput { get; private set; }
@@ -20,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (rb == null)
+            Debug.LogError($"{gameObject.name} is missing Rigidbody2D!");
     }
 
     void Update()
@@ -46,21 +42,28 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        MovementInput = new Vector2(
-            Input.GetAxisRaw("Horizontal"),
-            Input.GetAxisRaw("Vertical")
-        ).normalized;
+        // WASD input (only)
+        float moveX = 0f;
+        float moveY = 0f;
+
+        if (Input.GetKey(KeyCode.A)) moveX = -1f;
+        if (Input.GetKey(KeyCode.D)) moveX = 1f;
+        if (Input.GetKey(KeyCode.W)) moveY = 1f;
+        if (Input.GetKey(KeyCode.S)) moveY = -1f;
+
+        // Normalize for diagonal movement
+        MovementInput = new Vector2(moveX, moveY).normalized;
+
+        // Sprint with Left Shift
+        if (Input.GetKey(KeyCode.LeftShift))
+            MovementInput *= sprintMultiplier;
     }
 
     void UpdateState()
     {
-        if (CurrentState == PlayerState.Attack)
-            return;
+        if (CurrentState == PlayerState.Attack) return;
 
-        if (MovementInput == Vector2.zero)
-            CurrentState = PlayerState.Idle;
-        else
-            CurrentState = PlayerState.Dribble;
+        CurrentState = MovementInput == Vector2.zero ? PlayerState.Idle : PlayerState.Dribble;
     }
 
     void ApplyMovement()
