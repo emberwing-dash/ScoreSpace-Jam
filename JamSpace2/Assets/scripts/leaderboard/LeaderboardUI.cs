@@ -1,14 +1,33 @@
+﻿using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class LeaderboardUI : MonoBehaviour
 {
-    public Text player1Text;
-    public Text player2Text;
+    [Header("Leaderboard Display (Top → Bottom)")]
+    [SerializeField] private TextMeshProUGUI[] leaderboardNameTexts;
+    [SerializeField] private TextMeshProUGUI[] leaderboardScoreTexts;
 
-    void Start()
+    [Header("Source")]
+    [SerializeField] private PlayerNameFollowUI playerNameSource;
+
+    public void Refresh()
     {
-        player1Text.text = PlayerPrefs.GetString("Player1Name", "Player 1");
-        player2Text.text = PlayerPrefs.GetString("Player2Name", "Player 2");
+        string[] names = new string[2];
+        int[] scores = new int[2];
+
+        names[0] = playerNameSource.GetName(0);
+        names[1] = playerNameSource.GetName(1);
+
+        scores[0] = GameManager.score_1;
+        scores[1] = GameManager.score_2;
+
+        int top = scores[0] >= scores[1] ? 0 : 1;
+        int bottom = top == 0 ? 1 : 0;
+
+        leaderboardNameTexts[0].text = names[top];
+        leaderboardScoreTexts[0].text = "Score: " + scores[top];
+
+        leaderboardNameTexts[1].text = names[bottom];
+        leaderboardScoreTexts[1].text = "Score: " + scores[bottom];
     }
 }

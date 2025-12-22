@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
 public class PlayerAnimation2 : MonoBehaviour
@@ -53,17 +53,18 @@ public class PlayerAnimation2 : MonoBehaviour
 
     void UpdateFlip()
     {
-        if (player1Movement != null)
+        // Left arrow → face left
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            if (player1Movement.MovementInput.x < 0) spriteRenderer.flipX = true;
-            else if (player1Movement.MovementInput.x > 0) spriteRenderer.flipX = false;
+            spriteRenderer.flipX = false;
         }
-        else if (player2Movement != null)
+        // Right arrow → face right
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
-            if (player2Movement.MovementInput.x < 0) spriteRenderer.flipX = true;
-            else if (player2Movement.MovementInput.x > 0) spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
     }
+
 
     // Called by animation event at the end of attack
     public void EndAttack()

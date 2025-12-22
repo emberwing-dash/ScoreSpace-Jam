@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: d8bb1c7e984df654db90f164eee0e784
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8369985795107250269
+    second: cinderace_run_0
+  - first:
+      213: 3976705371732733771
+    second: cinderace_run_1
+  - first:
+      213: -5800169826400156533
+    second: cinderace_run_2
+  - first:
+      213: -6526245065010366570
+    second: cinderace_run_3
+  - first:
+      213: 1766871322803577146
+    second: cinderace_run_4
+  - first:
+      213: -7941010970172902211
+    second: cinderace_run_5
+  - first:
+      213: 2138741082570319063
+    second: cinderace_run_6
+  - first:
+      213: -5280258485014330894
+    second: cinderace_run_7
+  - first:
+      213: 4707924708095429295
+    second: cinderace_run_8
+  - first:
+      213: -8188961420603508662
+    second: cinderace_run_9
+  - first:
+      213: -5854279943289634253
+    second: cinderace_run_10
+  - first:
+      213: 1534888194774516344
+    second: cinderace_run_11
+  - first:
+      213: 4689526426800789996
+    second: cinderace_run_12
+  - first:
+      213: -4464564835020210895
+    second: cinderace_run_13
+  - first:
+      213: 6606741894618031817
+    second: cinderace_run_14
+  - first:
+      213: -4591622869343984265
+    second: cinderace_run_15
+  - first:
+      213: 1156285439944571272
+    second: cinderace_run_16
+  - first:
+      213: -7424043155895911437
+    second: cinderace_run_17
+  - first:
+      213: -106303045353757544
+    second: cinderace_run_18
+  - first:
+      213: 3580534791814749503
+    second: cinderace_run_19
+  - first:
+      213: 2546236338360538248
+    second: cinderace_run_20
+  - first:
+      213: -6116622723345421260
+    second: cinderace_run_21
+  - first:
+      213: 3979761908336641608
+    second: cinderace_run_22
+  - first:
+      213: 5848220586205498741
+    second: cinderace_run_23
+  - first:
+      213: 596209040057466617
+    second: cinderace_run_24
+  - first:
+      213: 7166159082590213910
+    second: cinderace_run_25
+  - first:
+      213: 8186430584149241785
+    second: cinderace_run_26
+  - first:
+      213: -1121775085085788529
+    second: cinderace_run_27
+  - first:
+      213: 8960766325855024207
+    second: cinderace_run_28
+  - first:
+      213: 125080048930707871
+    second: cinderace_run_29
+  - first:
+      213: 8659682323461185179
+    second: cinderace_run_30
+  - first:
+      213: -7849188999475307232
+    second: cinderace_run_31
+  - first:
+      213: 4567785771401911068
+    second: cinderace_run_32
+  - first:
+      213: 9103681551293791880
+    second: cinderace_run_33
+  - first:
+      213: 536430918856034384
+    second: cinderace_run_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cinderace_run_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 11
+        width: 233
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50ee6c0cb9282470800000000000000
+      internalID: 8369985795107250269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2
+        width: 214
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f64825778103730800000000000000
+      internalID: 3976705371732733771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_2
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 214
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84ca740648a18fa0800000000000000
+      internalID: -5800169826400156533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_3
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 21
+        width: 254
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69739eed0be1e65a0800000000000000
+      internalID: -6526245065010366570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_4
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 12
+        width: 258
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3128875b10358810800000000000000
+      internalID: 1766871322803577146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_5
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 2
+        width: 249
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db43d5d889cdbc190800000000000000
+      internalID: -7941010970172902211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_6
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1
+        width: 214
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4632ddea55ead10800000000000000
+      internalID: 2138741082570319063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 26
+        width: 251
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f18a7642e0c8b6b0800000000000000
+      internalID: -5280258485014330894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_8
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 11
+        width: 236
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa005f0498e55140800000000000000
+      internalID: 4707924708095429295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_9
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2
+        width: 216
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48bc8599f6fa5e80800000000000000
+      internalID: -8188961420603508662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_10
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 0
+        width: 215
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332078ca86b61cea0800000000000000
+      internalID: -5854279943289634253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_11
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 15
+        width: 251
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872c9735ea40d4510800000000000000
+      internalID: 1534888194774516344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_12
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 24
+        width: 259
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce99442607b841140800000000000000
+      internalID: 4689526426800789996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_13
+      rect:
+        serializedVersion: 2
+        x: 3530
+        y: 13
+        width: 259
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d7be3dfedaa02c0800000000000000
+      internalID: -4464564835020210895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_14
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 1
+        width: 244
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c62667cfbcdfab50800000000000000
+      internalID: 6606741894618031817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_15
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 4
+        width: 228
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775213ae3574740c0800000000000000
+      internalID: -4591622869343984265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_16
+      rect:
+        serializedVersion: 2
+        x: 4342
+        y: 24
+        width: 245
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8893ada3b73fb0010800000000000000
+      internalID: 1156285439944571272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_17
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 21
+        width: 246
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb77af751088f890800000000000000
+      internalID: -7424043155895911437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_18
+      rect:
+        serializedVersion: 2
+        x: 4902
+        y: 1
+        width: 214
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894a52781f5568ef0800000000000000
+      internalID: -106303045353757544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_19
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 1
+        width: 215
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d9b043c6d90b130800000000000000
+      internalID: 3580534791814749503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_20
+      rect:
+        serializedVersion: 2
+        x: 5441
+        y: 1
+        width: 233
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884db2e857c065320800000000000000
+      internalID: 2546236338360538248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_21
+      rect:
+        serializedVersion: 2
+        x: 5703
+        y: 14
+        width: 251
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ce9e55a046d1ba0800000000000000
+      internalID: -6116622723345421260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_22
+      rect:
+        serializedVersion: 2
+        x: 5970
+        y: 20
+        width: 258
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8464905be54fa3730800000000000000
+      internalID: 3979761908336641608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_23
+      rect:
+        serializedVersion: 2
+        x: 6241
+        y: 1
+        width: 253
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dc7e053ad092150800000000000000
+      internalID: 5848220586205498741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_24
+      rect:
+        serializedVersion: 2
+        x: 6533
+        y: 0
+        width: 210
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe708c86f8264800800000000000000
+      internalID: 596209040057466617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_25
+      rect:
+        serializedVersion: 2
+        x: 6790
+        y: 6
+        width: 231
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6179ab9b7bf437360800000000000000
+      internalID: 7166159082590213910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_26
+      rect:
+        serializedVersion: 2
+        x: 7050
+        y: 23
+        width: 246
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfeb922e3b0c9170800000000000000
+      internalID: 8186430584149241785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_27
+      rect:
+        serializedVersion: 2
+        x: 7341
+        y: 1
+        width: 212
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86f397e087ae60f0800000000000000
+      internalID: -1121775085085788529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_28
+      rect:
+        serializedVersion: 2
+        x: 7617
+        y: 1
+        width: 208
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44fed74f790b5c70800000000000000
+      internalID: 8960766325855024207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_29
+      rect:
+        serializedVersion: 2
+        x: 7881
+        y: 6
+        width: 240
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99d00d44af5cb100800000000000000
+      internalID: 125080048930707871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_30
+      rect:
+        serializedVersion: 2
+        x: 8138
+        y: 13
+        width: 259
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e12a5313f5d2870800000000000000
+      internalID: 8659682323461185179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_31
+      rect:
+        serializedVersion: 2
+        x: 8416
+        y: 1
+        width: 247
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dde571134121390800000000000000
+      internalID: -7849188999475307232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_32
+      rect:
+        serializedVersion: 2
+        x: 8702
+        y: 0
+        width: 209
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b9e7a35f8046f30800000000000000
+      internalID: 4567785771401911068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_33
+      rect:
+        serializedVersion: 2
+        x: 8957
+        y: 5
+        width: 232
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88eb4253326c65e70800000000000000
+      internalID: 9103681551293791880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_run_34
+      rect:
+        serializedVersion: 2
+        x: 9217
+        y: 12
+        width: 237
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05843fc1419c17700800000000000000
+      internalID: 536430918856034384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cinderace_run_0: 8369985795107250269
+      cinderace_run_1: 3976705371732733771
+      cinderace_run_10: -5854279943289634253
+      cinderace_run_11: 1534888194774516344
+      cinderace_run_12: 4689526426800789996
+      cinderace_run_13: -4464564835020210895
+      cinderace_run_14: 6606741894618031817
+      cinderace_run_15: -4591622869343984265
+      cinderace_run_16: 1156285439944571272
+      cinderace_run_17: -7424043155895911437
+      cinderace_run_18: -106303045353757544
+      cinderace_run_19: 3580534791814749503
+      cinderace_run_2: -5800169826400156533
+      cinderace_run_20: 2546236338360538248
+      cinderace_run_21: -6116622723345421260
+      cinderace_run_22: 3979761908336641608
+      cinderace_run_23: 5848220586205498741
+      cinderace_run_24: 596209040057466617
+      cinderace_run_25: 7166159082590213910
+      cinderace_run_26: 8186430584149241785
+      cinderace_run_27: -1121775085085788529
+      cinderace_run_28: 8960766325855024207
+      cinderace_run_29: 125080048930707871
+      cinderace_run_3: -6526245065010366570
+      cinderace_run_30: 8659682323461185179
+      cinderace_run_31: -7849188999475307232
+      cinderace_run_32: 4567785771401911068
+      cinderace_run_33: 9103681551293791880
+      cinderace_run_34: 536430918856034384
+      cinderace_run_4: 1766871322803577146
+      cinderace_run_5: -7941010970172902211
+      cinderace_run_6: 2138741082570319063
+      cinderace_run_7: -5280258485014330894
+      cinderace_run_8: 4707924708095429295
+      cinderace_run_9: -8188961420603508662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

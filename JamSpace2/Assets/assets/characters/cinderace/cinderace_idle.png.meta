@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4eac0eaa4e20f474eb94e48e6da3651c
+guid: a1184ab429c46394a9be28d07f712567
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -14,6 +14,21 @@ TextureImporter:
   - first:
       213: -5799163568079093033
     second: cinderace_idle_3
+  - first:
+      213: 9209734572499754181
+    second: cinderace_idle_4
+  - first:
+      213: -8421842362559226433
+    second: cinderace_idle_5
+  - first:
+      213: 5208697437009885213
+    second: cinderace_idle_6
+  - first:
+      213: -7255295616586828885
+    second: cinderace_idle_7
+  - first:
+      213: 1209508491111354706
+    second: cinderace_idle_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -138,10 +153,10 @@ TextureImporter:
       name: cinderace_idle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 113
-        height: 213
+        x: 18
+        y: 538
+        width: 216
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +175,10 @@ TextureImporter:
       name: cinderace_idle_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 0
-        width: 116
-        height: 210
+        x: 257
+        y: 538
+        width: 218
+        height: 261
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +197,10 @@ TextureImporter:
       name: cinderace_idle_2
       rect:
         serializedVersion: 2
-        x: 292
-        y: 0
-        width: 121
-        height: 213
+        x: 514
+        y: 538
+        width: 218
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +219,10 @@ TextureImporter:
       name: cinderace_idle_3
       rect:
         serializedVersion: 2
-        x: 456
-        y: 0
-        width: 116
-        height: 213
+        x: 2
+        y: 269
+        width: 216
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,6 +233,116 @@ TextureImporter:
       bones: []
       spriteID: 7d2424ac57b358fa0800000000000000
       internalID: -5799163568079093033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_idle_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 269
+        width: 216
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc5b756ccc8fcf70800000000000000
+      internalID: 9209734572499754181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_idle_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 269
+        width: 216
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd1259fdfa9f1b80800000000000000
+      internalID: -8421842362559226433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_idle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 220
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18367bd8b2094840800000000000000
+      internalID: 5208697437009885213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_idle_7
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 222
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3b4e0b313005b90800000000000000
+      internalID: -7255295616586828885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cinderace_idle_8
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 0
+        width: 222
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251d28d709909c010800000000000000
+      internalID: 1209508491111354706
       vertices: []
       indices: 
       edges: []
@@ -240,6 +365,11 @@ TextureImporter:
       cinderace_idle_1: 3527341881174880946
       cinderace_idle_2: 1534727453807076010
       cinderace_idle_3: -5799163568079093033
+      cinderace_idle_4: 9209734572499754181
+      cinderace_idle_5: -8421842362559226433
+      cinderace_idle_6: 5208697437009885213
+      cinderace_idle_7: -7255295616586828885
+      cinderace_idle_8: 1209508491111354706
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
