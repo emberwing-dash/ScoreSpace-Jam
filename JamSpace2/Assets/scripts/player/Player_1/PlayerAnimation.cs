@@ -11,7 +11,7 @@ public class PlayerAnimation : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         movement = GetComponentInParent<PlayerMovement>();
-        spriteRenderer = GetComponent<SpriteRenderer>(); // or GetComponentInChildren if needed
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -22,8 +22,8 @@ public class PlayerAnimation : MonoBehaviour
 
     void UpdateAnimator()
     {
+        // Only Idle / Dribble
         animator.SetBool("isDribbling", movement.CurrentState == PlayerState.Dribble);
-        animator.SetBool("isAttacking", movement.CurrentState == PlayerState.Attack);
 
         if (movement.MovementInput != Vector2.zero)
         {
@@ -34,7 +34,7 @@ public class PlayerAnimation : MonoBehaviour
 
     void UpdateFlip()
     {
-        // Flip when Left Arrow or A is pressed (even diagonally)
+        // Face left
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A) || movement.MovementInput.x < 0)
         {
             spriteRenderer.flipX = true;
@@ -45,17 +45,4 @@ public class PlayerAnimation : MonoBehaviour
             spriteRenderer.flipX = false;
         }
     }
-
-    // Animation Event → last frame of attack
-    public void EndAttack()
-    {
-        movement.EndAttack();
-
-        // FORCE animator back to Idle
-        animator.SetBool("isAttacking", false);
-        animator.SetBool("isDribbling", false);
-
-        animator.Play("Idle", 0, 0f);
-    }
-
 }

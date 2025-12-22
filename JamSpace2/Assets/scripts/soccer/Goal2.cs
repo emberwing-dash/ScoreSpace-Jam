@@ -10,7 +10,7 @@ public class Goal2 : MonoBehaviour
             Debug.Log("GOAL!!");
         }
 
-        GameManager.score_2 += 1;
+        GameManager.score_1 += 1;
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

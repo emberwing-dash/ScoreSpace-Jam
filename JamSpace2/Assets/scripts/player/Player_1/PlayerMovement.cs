@@ -1,13 +1,15 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
+    public float sprintSpeed = 8f;
 
     public PlayerState CurrentState { get; private set; } = PlayerState.Idle;
     public Vector2 MovementInput { get; private set; }
 
     private Rigidbody2D rb;
+    private bool isSprinting;
 
     void Awake()
     {
@@ -16,11 +18,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (CurrentState != PlayerState.Attack)
-        {
-            ReadInput();
-            UpdateState();
-        }
+        ReadInput();
+        UpdateState();
     }
 
     void FixedUpdate()
@@ -30,12 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     void ReadInput()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && CurrentState != PlayerState.Attack)
-        {
-            CurrentState = PlayerState.Attack;
-            MovementInput = Vector2.zero;
-            return;
-        }
+        isSprinting = Input.GetKey(KeyCode.LeftShift);
 
         MovementInput = new Vector2(
             Input.GetAxisRaw("Horizontal"),
@@ -45,24 +39,14 @@ public class PlayerMovement : MonoBehaviour
 
     void UpdateState()
     {
-        if (CurrentState == PlayerState.Attack) return;
-
-        CurrentState = MovementInput == Vector2.zero ? PlayerState.Idle : PlayerState.Dribble;
+        CurrentState = MovementInput == Vector2.zero
+            ? PlayerState.Idle
+            : PlayerState.Dribble;
     }
 
     void ApplyMovement()
     {
-        if (CurrentState == PlayerState.Attack)
-        {
-            rb.linearVelocity = Vector2.zero;
-            return;
-        }
-
-        rb.linearVelocity = MovementInput * speed;
-    }
-
-    public void EndAttack()
-    {
-        CurrentState = PlayerState.Idle;
+        float currentSpeed = isSprinting ? sprintSpeed : speed;
+        rb.linearVelocity = MovementInput * currentSpeed;
     }
 }
