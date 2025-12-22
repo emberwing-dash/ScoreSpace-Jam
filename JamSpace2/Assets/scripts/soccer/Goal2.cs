@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Goal : MonoBehaviour
+public class Goal2 : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -10,7 +10,7 @@ public class Goal : MonoBehaviour
             Debug.Log("GOAL!!");
         }
 
-        GameManager.score_1 += 1;
+        GameManager.score_2 += 1;
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

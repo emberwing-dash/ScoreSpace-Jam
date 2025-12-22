@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class PlayerMenu : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] Canvas leaderboardCanva;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        leaderboardCanva.gameObject.SetActive(false);
+    }
+    public void displayLeaderboard()
+    {
+        leaderboardCanva.gameObject.SetActive(true);
     }
 }
