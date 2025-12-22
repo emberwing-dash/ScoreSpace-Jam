@@ -8,9 +8,10 @@ public class Goal2 : MonoBehaviour
         if (collision.CompareTag("Ball"))
         {
             Debug.Log("GOAL!!");
+            GameManager.score_1 += 1;
         }
 
-        GameManager.score_1 += 1;
+        
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

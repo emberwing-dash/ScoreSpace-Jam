@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 
 public class ScoreTimer : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class ScoreTimer : MonoBehaviour
     private static bool matchEnded;
 
     private LeaderboardUI leaderboardUI;
+
+    
 
     private void Awake()
     {
@@ -26,7 +29,8 @@ public class ScoreTimer : MonoBehaviour
 
     private void Start()
     {
-        leaderboardCanvas.SetActive(false);
+        
+    leaderboardCanvas.SetActive(false);
         UpdateTimerUI();
     }
 
@@ -55,7 +59,7 @@ public class ScoreTimer : MonoBehaviour
     private void EndMatch()
     {
         matchEnded = true;
-
+        initialMatchTime = 300f;
         leaderboardCanvas.SetActive(true);
         leaderboardUI.Refresh(); // 🔥 CRITICAL
 
