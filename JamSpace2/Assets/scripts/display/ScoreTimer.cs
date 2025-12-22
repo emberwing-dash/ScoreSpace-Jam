@@ -1,36 +1,32 @@
 ﻿using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
 
 public class ScoreTimer : MonoBehaviour
 {
-    [SerializeField] private float initialMatchTime = 300f;
+    [Header("Timer")]
+    [SerializeField] private float matchDuration = 300f;
     [SerializeField] private TextMeshProUGUI timerText;
+
+    [Header("Leaderboard")]
     [SerializeField] private GameObject leaderboardCanvas;
 
-    private static float matchTimeSeconds;
-    private static bool timerInitialized;
-    private static bool matchEnded;
+    private float currentTime;
+    private bool matchEnded;
 
     private LeaderboardUI leaderboardUI;
-
-    
 
     private void Awake()
     {
         leaderboardUI = GetComponent<LeaderboardUI>();
 
-        if (!timerInitialized)
-        {
-            matchTimeSeconds = initialMatchTime;
-            timerInitialized = true;
-        }
-    }
+        // RESET timer EVERY time scene loads
+        currentTime = matchDuration;
+        matchEnded = false;
+        Time.timeScale = 1f;
 
-    private void Start()
-    {
-        
-    leaderboardCanvas.SetActive(false);
+        if (leaderboardCanvas != null)
+            leaderboardCanvas.SetActive(false);
+
         UpdateTimerUI();
     }
 
@@ -38,11 +34,11 @@ public class ScoreTimer : MonoBehaviour
     {
         if (matchEnded) return;
 
-        matchTimeSeconds -= Time.deltaTime;
+        currentTime -= Time.deltaTime;
 
-        if (matchTimeSeconds <= 0f)
+        if (currentTime <= 0f)
         {
-            matchTimeSeconds = 0f;
+            currentTime = 0f;
             EndMatch();
         }
 
@@ -51,17 +47,20 @@ public class ScoreTimer : MonoBehaviour
 
     private void UpdateTimerUI()
     {
-        int m = Mathf.FloorToInt(matchTimeSeconds / 60f);
-        int s = Mathf.FloorToInt(matchTimeSeconds % 60f);
+        int m = Mathf.FloorToInt(currentTime / 60f);
+        int s = Mathf.FloorToInt(currentTime % 60f);
         timerText.text = $"{m:00}:{s:00}";
     }
 
     private void EndMatch()
     {
         matchEnded = true;
-        initialMatchTime = 300f;
-        leaderboardCanvas.SetActive(true);
-        leaderboardUI.Refresh(); // 🔥 CRITICAL
+
+        if (leaderboardCanvas != null)
+            leaderboardCanvas.SetActive(true);
+
+        if (leaderboardUI != null)
+            leaderboardUI.Refresh();
 
         Time.timeScale = 0f;
     }
